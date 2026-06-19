@@ -6,6 +6,9 @@
     padding: 0;
     line-height: 1;
 }
+html {
+  overflow: hidden;
+}
 html, body {
     height: 100%;
 }
@@ -249,7 +252,7 @@ _____________________________________*/
     .content {
       max-width: 836px;
       margin: 0 auto;
-      padding: 16px 24px 40px;
+      padding: 16px 0 40px;
     }
 
     /* ── LIST VIEW ── */
